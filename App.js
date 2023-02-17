@@ -1,8 +1,7 @@
 import {View, Text, TouchableOpacity} from 'react-native';
 import React, {useEffect, useState} from 'react';
-import RnOtpInputs from './src/Rn-otp-inputs/Rn-otp-inputs';
 import {scale} from './src/Infrastructure/utils/screenUtility';
-
+import RnOtpInputs from 'rn-otp-inputs';
 const App = () => {
   const [iserror, setIserror] = useState(false);
   const submitHanlder = () => {
@@ -16,10 +15,10 @@ const App = () => {
         isError={iserror}
         Minute={0}
         Second={5}
-        autoSubmit={false}
+        autoSubmit={true}
         // secureTextEntry={true}
-        isResendOtpDisplay={false}
-        isButtonDisplay={false}
+        // isResendOtpDisplay={false}
+        // isButtonDisplay={false}
         errorMsgStyle={{
           marginLeft: scale(30),
           marginTop: scale(5),

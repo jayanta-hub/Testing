@@ -11,7 +11,10 @@ import {
 } from 'react-native';
 import React, {useRef, useState, useEffect} from 'react';
 import PropTypes from 'prop-types';
-import {guidelineBaseWidth, scale} from '../Infrastructure/utils/screenUtility';
+import {
+  guidelineBaseWidth,
+  scale,
+} from './src/Infrastructure/utils/screenUtility';
 const RnOtpInputs = props => {
   const {
     onSubmit,
