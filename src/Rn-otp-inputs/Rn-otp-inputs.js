@@ -101,7 +101,6 @@ const RnOtpInputs = props => {
       : index > 0
       ? setActiveOtpIndex(index - 1)
       : null;
-    // isError ? setIserror(false) : null;
     /**
      * ? For AutoSubmit (After Fill All Input we Can call a Fun)
      */
