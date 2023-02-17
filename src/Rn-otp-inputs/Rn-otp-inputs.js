@@ -18,7 +18,7 @@ const RnOtpInputs = props => {
     secureTextEntry,
     autoSubmit,
     mode,
-    borderRadiusStyle,
+    borderRadius,
     onChageValue,
     bgcolor,
     textColor,
@@ -30,7 +30,7 @@ const RnOtpInputs = props => {
     Second,
     buttonStyle,
     onlyResendOtp,
-    onResentClick,
+    onResendClick,
     buttonTitleStyle,
     resendTextStyle,
     inputHeightAndWidth,
@@ -89,7 +89,7 @@ const RnOtpInputs = props => {
       setIserror(false),
       setActiveOtpIndex(0),
       setIsResend(true),
-      onResentClick();
+      onResendClick();
   };
   const ChangeHandler = (e, index) => {
     const {text} = e.nativeEvent;
@@ -211,8 +211,8 @@ const RnOtpInputs = props => {
                           : mode === 'flat'
                           ? 0
                           : mode === 'rectangle'
-                          ? borderRadiusStyle
-                          : borderRadiusStyle,
+                          ? borderRadius
+                          : borderRadius,
                       ),
                       backgroundColor: mode === 'flat' ? '#FFFFFF' : bgcolor,
                       marginHorizontal:
@@ -280,8 +280,8 @@ const RnOtpInputs = props => {
                             : mode === 'flat'
                             ? 0
                             : mode === 'rectangle'
-                            ? borderRadiusStyle
-                            : borderRadiusStyle,
+                            ? borderRadius
+                            : borderRadius,
                         ),
                         backgroundColor: mode === 'flat' ? '#FFFFFF' : bgcolor,
                         paddingBottom: 0,
@@ -377,10 +377,10 @@ RnOtpInputs.propTypes = {
   buttonTitle: PropTypes.string,
   Minute: PropTypes.number,
   Second: PropTypes.number,
-  borderRadiusStyle: PropTypes.number,
+  borderRadius: PropTypes.number,
   buttonStyle: PropTypes.object,
   onlyResendOtp: PropTypes.bool,
-  onResentClick: PropTypes.func,
+  onResendClick: PropTypes.func,
   buttonTitleStyle: PropTypes.object,
   resendTextStyle: PropTypes.object,
   isError: PropTypes.bool,
@@ -401,7 +401,7 @@ RnOtpInputs.defaultProps = {
   bgcolor: '#D9E3F6',
   textColor: '#000000',
   borderWidth: 1,
-  borderRadiusStyle: 6,
+  borderRadius: 6,
   borderColor: '#A768F1',
   keyboardType: 'number-pad',
   buttonTitle: 'Verify & Proceed',
@@ -426,7 +426,7 @@ RnOtpInputs.defaultProps = {
     marginVertical: scale(0),
   },
   onlyResendOtp: false,
-  onResentClick: () => {},
+  onResendClick: () => {},
   buttonTitleStyle: {
     fontSize: scale(15),
     color: '#FFFFFF',
