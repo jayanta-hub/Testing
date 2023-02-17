@@ -25,21 +25,23 @@ or
 
 `yarn add prop-types@15.8.1 react@17.0.2 react-native@0.68.2`
 
-## Basic Usage
+## ScreenShot
 
-Android ScreenShot
+Android
 
 <kbd> <img height="530" width="230" src="https://user-images.githubusercontent.com/76052991/218087798-ee2b4c26-c603-435b-a90b-8e31279d4cea.png" /> </kbd>
 <kbd> <img height="530" width="230" src="https://user-images.githubusercontent.com/76052991/219651758-c45d4748-b96f-4d03-84f5-7f0fd1c138ba.png" /> </kbd>
 <kbd> <img height="530" width="230" src="https://user-images.githubusercontent.com/76052991/218086772-28f749d3-8329-494e-8b0c-806310db573a.png" /> </kbd>
 <kbd> <img height="530" width="230" src="https://user-images.githubusercontent.com/76052991/219652068-dc5a1e2b-e6f1-4c2b-bdce-7f9a09e20f12.png" /> </kbd>
 
-Ios ScreenShot
+Ios
 
 <kbd> <img height="500" width="230" src="https://user-images.githubusercontent.com/76052991/218086943-462a99fb-39b1-4ac6-a5e6-1394dbd6c921.png" /> </kbd>
 <kbd> <img height="500" width="230" src="https://user-images.githubusercontent.com/76052991/219652235-17e17755-6486-4f35-8611-22ceb32730c9.png" /> </kbd>
 <kbd> <img height="500" width="230" src="https://user-images.githubusercontent.com/76052991/218087265-f5e9955a-53fa-40f9-b32a-eb55823e894b.png" /> </kbd>
 <kbd> <img height="500" width="230" src="https://user-images.githubusercontent.com/76052991/219652407-3465cbf9-1762-4025-88e4-e9418e02fc72.png" /> </kbd>
+
+## Basic Usage
 
 ```
 import RnOtpInputs from 'rn-otp-inputs';
