@@ -27,14 +27,14 @@ or
 
 ## Basic Usage
 
-Android Screen Shot
+Android ScreenShot
 
 <kbd> <img height="530" width="230" src="https://user-images.githubusercontent.com/76052991/218087798-ee2b4c26-c603-435b-a90b-8e31279d4cea.png" /> </kbd>
 <kbd> <img height="530" width="230" src="https://user-images.githubusercontent.com/76052991/219651758-c45d4748-b96f-4d03-84f5-7f0fd1c138ba.png" /> </kbd>
 <kbd> <img height="530" width="230" src="https://user-images.githubusercontent.com/76052991/218086772-28f749d3-8329-494e-8b0c-806310db573a.png" /> </kbd>
 <kbd> <img height="530" width="230" src="https://user-images.githubusercontent.com/76052991/219652068-dc5a1e2b-e6f1-4c2b-bdce-7f9a09e20f12.png" /> </kbd>
 
-Ios Screen Shot
+Ios ScreenShot
 
 <kbd> <img height="500" width="230" src="https://user-images.githubusercontent.com/76052991/218086943-462a99fb-39b1-4ac6-a5e6-1394dbd6c921.png" /> </kbd>
 <kbd> <img height="500" width="230" src="https://user-images.githubusercontent.com/76052991/219652235-17e17755-6486-4f35-8611-22ceb32730c9.png" /> </kbd>
